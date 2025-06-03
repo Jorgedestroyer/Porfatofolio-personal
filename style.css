@@ -44,3 +44,16 @@ footer {
   background-color: #111;
   color: #777;
 }
+.mi-foto {
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+  border: 3px solid #6A0DAD;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 10px #6A0DAD50;
+}
+.mi-foto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #6A0DAD;
+}
