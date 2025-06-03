@@ -29,6 +29,7 @@ nav a:hover {
 }
 
 section {
+  scroll-margin-top: 80px;  
   padding: 30px 20px;
   border-bottom: 1px solid #6A0DAD;
 }
