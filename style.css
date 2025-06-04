@@ -1,59 +1,61 @@
 body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #000;
-  color: #C0C0C0;
+  margin: 0; /* Elimina el margen por defecto del body */
+  font-family: 'Segoe UI', sans-serif; /* Fuente principal de la página */
+  background-color: #000; /* Fondo negro */
+  color: #C0C0C0; /* Color de texto gris claro */
 }
 
 header {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #6A0DAD;
-  color: white;
+  text-align: center; /* Centra el contenido del header */
+  padding: 40px 20px; /* Espaciado interno arriba/abajo y a los lados */
+  background-color: #270242; /* Fondo morado oscuro para el header */
+  color: white; /* Texto blanco en el header */
 }
 
 nav {
-  background-color: #222;
-  padding: 10px;
-  text-align: center;
+  background-color: #222; /* Fondo gris oscuro para la barra de navegación */
+  padding: 10px; /* Espaciado interno en la barra de navegación */
+  text-align: center; /* Centra los enlaces de navegación */
 }
 
 nav a {
-  color: #C0C0C0;
-  margin: 0 15px;
-  text-decoration: none;
+  color: #C0C0C0; /* Color de los enlaces en la navegación */
+  margin: 0 15px; /* Espacio entre los enlaces */
+  text-decoration: none; /* Quita el subrayado de los enlaces */
 }
 
 nav a:hover {
-  color: #6A0DAD;
+  color: #6A0DAD; /* Cambia el color al pasar el mouse sobre los enlaces */
 }
 
 section {
-  scroll-margin-top: 80px;  
-  padding: 30px 20px;
-  border-bottom: 1px solid #6A0DAD;
+  scroll-margin-top: 80px;  /* Deja espacio al hacer scroll para que no quede tapado por el nav */
+  padding: 30px 20px; /* Espaciado interno de las secciones */
+  border-bottom: 1px solid #6A0DAD; /* Línea inferior morada entre secciones */
 }
 
 h2 {
-  color: #6A0DAD;
+  color: #6A0DAD; /* Color morado para los títulos de sección */
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #111;
-  color: #777;
+  text-align: center; /* Centra el texto del pie de página */
+  padding: 20px; /* Espaciado interno en el footer */
+  background-color: #111; /* Fondo gris muy oscuro para el footer */
+  color: #777; /* Texto gris claro en el footer */
 }
+
 .mi-foto {
-  width: 200px;
-  border-radius: 50%;
-  display: block;
-  margin: 20px auto;
-  border: 3px solid #6A0DAD;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 0 10px #6A0DAD50;
+  width: 200px; /* Ancho fijo para la foto de perfil */
+  border-radius: 50%; /* Hace la imagen circular */
+  display: block; /* Hace que la imagen sea un bloque */
+  margin: 20px auto; /* Centra la imagen y agrega espacio arriba/abajo */
+  border: 3px solid #6A0DAD; /* Borde morado alrededor de la foto */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animación suave al hacer hover */
+  box-shadow: 0 0 10px #6A0DAD50; /* Sombra suave alrededor de la foto */
 }
+
 .mi-foto:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px #6A0DAD;
+  transform: scale(1.05); /* Agranda la foto al pasar el mouse */
+  box-shadow: 0 0 20px #6A0DAD; /* Sombra más intensa al hacer hover */
 }
